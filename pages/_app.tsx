@@ -40,10 +40,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           sizes="512x512"
           href="/icons/icon-512x512.png"
         />
-        <meta name="apple-mobile-web-app-status-bar" content="#fcd5ce" />
+        <meta name="apple-mobile-web-app-status-bar" content="#EBECF8" />
 
         <link rel="icon" href="/favicon.ico" />
-        <meta name="theme-color" content="#fcd5ce" />
+        <meta name="theme-color" content="#EBECF8" />
 
         {/* Essential META Tags */}
 
