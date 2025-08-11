@@ -17,7 +17,7 @@ export const Bio: React.SFC = () => {
       <section className="py-8 col-span-10 col-start-2 col-end-12 text-center text-gray-600 font-light">
         <Image
           loader={bioImageLoader}
-          src="https://res.cloudinary.com/wecloud/image/upload/v1625592156/artist-portfolio/bio_i7nqs3.jpg"
+          src="/images/image_4.jpg"
           alt="Picture for Bio"
           objectFit="contain"
           width={1200}
@@ -35,7 +35,7 @@ export const Bio: React.SFC = () => {
           </p>
         </Fade>
         <p className="underline cursor-pointer text-sm w-full md:w-4/5 text-center mx-auto hover:text-gray-800">
-          <Link href="/admin">Add content</Link>
+          {/* <Link href="/admin">Add content</Link> */}
         </p>
         <Link href="/contact" passHref>
           <button className="text-gray-100 my-6 bg-gray-600 hover:bg-gray-800 px-8 py-4 focus:outline-none">
