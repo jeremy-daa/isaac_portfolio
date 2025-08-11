@@ -13,7 +13,7 @@ export const ListMobile: React.SFC = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         className="md:hidden fixed pt-24 z-10 w-screen h-screen"
-        style={{ backgroundColor: "#f8edeb" }}
+        style={{ backgroundColor: "#EBEFF8FF" }}
       >
         <ul className="grid grid-rows-6 gap-6 justify-center">
           <li className="py-1 px-2 text-lg text-center font-extralight text-gray-700 hover:text-gray-900">
