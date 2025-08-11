@@ -47,29 +47,31 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         {/* Essential META Tags */}
 
-        <meta property="og:title" content="Artist Portfolio" />
+        <meta
+          property="og:title"
+          content="Isaac Addisu | Hip-Hop Artist & Songwriter"
+        />
         <meta
           property="og:description"
-          content="A awesome artist portfolio website."
+          content="The official portfolio of Isaac Addisu, a hip-hop artist and songwriter from Addis Ababa. Discover his music, including the latest album 'Art Prisoner'."
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/wecloud/image/upload/v1625824185/artist-portfolio/twitter_card-100_innx4h.jpg"
+          content="https://isaac-portfolio-liart.vercel.app/images/image_2.jpg"
         />
         <meta
           property="og:url"
-          content="https://artist-portfolio.vercel.app/"
+          content="https://isaac-portfolio-liart.vercel.app/"
         />
         <meta name="twitter:card" content="summary_large_image" />
 
-        {/* Non-Essential, But Recommended */}
+        <meta property="og:site_name" content="Isaac Addisu" />
+        <meta
+          name="twitter:image:alt"
+          content="A promotional image for artist Isaac Addisu"
+        />
 
-        <meta property="og:site_name" content="Artist Portfolio" />
-        <meta name="twitter:image:alt" content="Artist Portfolio" />
-
-        {/* Non-Essential, But Required for Analytics */}
-
-        <meta name="twitter:site" content="@satvikvirmani" />
+        <meta name="twitter:site" content="@isaac_addisu" />
       </Head>
       <AnimateSharedLayout>
         <Component {...pageProps} />
