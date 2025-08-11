@@ -31,7 +31,7 @@ export const ImageComponent: React.SFC<ImageComponentProps> = (
           height={600}
           className="cursor-pointer object-cover w-full filter brightness-90 hover:brightness-110 transition-all duration-200"
           placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQMAAABDsxw2AAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAANQTFRF/NXOmzdpgwAAACJJREFUeJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAHgZLbQAAWZ0M2QAAAAASUVORK5CYII="
+          blurDataURL="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM8d/NPPQAIRAMk5fq4pgAAAABJRU5ErkJggg=="
         />
       </div>
     </>
